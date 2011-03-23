@@ -1,3 +1,3 @@
 #Aout Me
->My name is Guo Zesheng.
->My E-mail: guozesheng@gmail.com
+>*  My name is Guo Zesheng.
+>*  My E-mail: guozesheng@gmail.com
