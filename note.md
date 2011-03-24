@@ -1,3 +1,86 @@
+#_Note0320_
+
+##<tab>
+
+>``cd fir-<tab>``  -> cd first	(Quick completion)
+
+##path
+
+>abs path
+
+>rel path
+
+##sudo
+
+>sudo    -> SuperUser do
+
+>sudo su -> root
+
+##apt-get
+
+>``apt-get update``
+
+>``apt-get install git-core``   -> install the Git
+
+>``wget 122.115.61.189/tmp/cc-note``   -> Download
+
+##chmod
+
+>ugo   -> user, group, others
+
+>a     -> all
+
+>rwx   -> read(4), write(2), execute(1)
+
+>``chmod 664 myfile``   -> -rw-rw-r--
+
+>``chmod ug+rw mydir``  -> drw-rw----
+
+##mkdir
+
+>``mkdir -p mydir1/mydir2``  -> will also create all directories leading up to the given directory that do not exist already. If the given directory already exists, ignore the error.
+
+##mv and cp
+
+>``mv aa bb``   -> rename or move
+
+>``cp aa bb``   -> copy
+
+##rm
+
+>rm -r -f
+
+##Mentioned
+
+>*  GUI   -> Command Line
+>*  ls    -> list
+>*  cd    -> Change Directory (No Folder)
+>*  cd   --> soon back
+>*  dpkg
+>*  [book](http://happypeter.github.com/LGCB "Peter's book")
+>*  whoami
+>*  gedit
+>*  git clone https://github.com/happypeter/cc-note.git
+>* the music: _The Pretty Reckless_
+
+
+***
+
+#_Note0321_
+
+##vim
+
+>*  i               -> input
+>*  :h vim-modes
+>*  :w              -> write
+>*  ``:w hello.c``  -> write to hello.c
+>*  :q              -> quit
+>*  !               -> force
+>*  vimtutor
+
+
+***
+
 #_Note0322_
 
 ##chmod
