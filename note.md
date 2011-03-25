@@ -180,7 +180,8 @@
 ##Mentioned
 
 >*  Search 'peter-vim' from github.com
->*  [get Peter.s vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  [get Peter's vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  README
 
 ***
 
