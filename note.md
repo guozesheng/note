@@ -173,16 +173,14 @@
 >*  ~/.vimrc             -> vim config
 >*  ``:h 'autoindent'``  -> for help
 
-##script
-
->Script usually is interpreted language. And run some functions of a specific program.
-
 ##Mentioned
 
 >*  Search 'peter-vim' from github.com
->*  [get Peter's vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  [get Peters vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  script -> Script usually is interpreted language. And run some functions of a specific program.
 >*  README
 >*  TODO
+>*  the book : _how to become a hacker_
 
 ***
 
