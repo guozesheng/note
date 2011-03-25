@@ -164,4 +164,24 @@
 
 ***
 
+#_Note0325_
+
+##vim config
+
+>*  ``:set nu``          -> Show line number
+>*  ``:set autoindent``  -> Auto indent
+>*  ~/.vimrc             -> vim config
+>*  ``:h 'autoindent'``  -> for help
+
+##script
+
+>Script usually is interpreted language. And run some functions of a specific program.
+
+##Mentioned
+
+>*  Search 'peter-vim' from github.com
+>*  [get Peter.s vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+
+***
+
 >>>_All by XiaoGuo_
