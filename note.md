@@ -114,6 +114,15 @@
 >*  CTRL+]
 >*  CTRL+O
 
+###Auto completion
+
+>*  ``CTRL-N``    -> quick completion
+>*  ``CTRL-L-K``  -> set spell
+>*  ``CTRL-X-L``  -> quick completion line
+>*  ``CTRL-X-F``  -> quick completion the filename
+>*  ``CTRL-x-k``  -> check with the dictionary
+>*  Check ``:h i_Ctrl-<tab>`` for help.
+
 ###Metioned
 
 >*  gedit
