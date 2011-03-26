@@ -1,48 +1,34 @@
 #_My Note_
 
-##<tab>
+##bash
 
 >``cd fir-<tab>``  -> cd first	(Quick completion)
 
-***
-
-##path
+###path
 
 >abs path
 
 >rel path
 
-***
+###mkdir
 
-##sudo
+>``mkdir -p mydir1/mydir2``  -> will also create all directories leading up to the given directory that do not exist already. If the given directory already exists, ignore the error.
+
+###mv and cp
+
+>``mv aa bb``   -> rename or move
+
+>``cp aa bb``   -> copy
+
+###rm
+
+###sudo
 
 >sudo    -> SuperUser do
 
 >sudo su -> root
 
-***
-
-##apt-get
-
->``apt-get update``
-
->``apt-get install git-core``   -> install the Git
-
->``wget 122.115.61.189/tmp/cc-note``   -> Download
-
-##install
-
->*  ``./configure``
->*  ``make``
->*  ``sudo make install``
-
-### /bin
-
->``sudo mv tool.sh /bin``  -> To install it and Enable it Run Everywhere
-
-***
-
-##chmod
+###chmod
 
 >ugo                       -> user, group, others
 
@@ -58,42 +44,42 @@
 
 >``sudo mv tool.sh /bin``  -> To install it and Enable it Run Everywhere
 
->Try to install the MarkDown_
+>Try to install the MarkDown.
 
-***
+###Mentioned
 
-##mkdir
-
->``mkdir -p mydir1/mydir2``  -> will also create all directories leading up to the given directory that do not exist already. If the given directory already exists, ignore the error.
-
-***
-
-##mv and cp
-
->``mv aa bb``   -> rename or move
-
->``cp aa bb``   -> copy
-
-***
-
-##rm
-
->rm -r -f
-
-***
-
-##Mentioned
-
->*  GUI   -> Command Line
->*  ls    -> list
->*  cd    -> Change Directory (No Folder)
->*  cd   --> soon back
->*  dpkg
->*  [book](http://happypeter.github.com/LGCB "Peter's book")
+>*  GUI       -> Command Line
+>*  ls        -> list
+>*  cd        -> Change Directory (No Folder)
+>*  cd       --> soon back
+>*  rm -r -f  -> delete the file
 >*  whoami
->*  gedit
->*  git clone https://github.com/happypeter/cc-note.git
->* the music: _The Pretty Reckless_
+>*  the music: _The Pretty Reckless_
+>*  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
+
+***
+
+##install
+
+>*  ``./configure``
+>*  ``make``
+>*  ``sudo make install``
+
+### /bin
+
+>``sudo mv tool.sh /bin``  -> To install it and Enable it Run Everywhere
+
+###apt-get
+
+>``apt-get update``
+
+>``apt-get install git-core``   -> install the Git
+
+>``wget 122.115.61.189/tmp/cc-note``   -> Download
+
+###Mentioned
+
+>*  dpkg
 
 ***
 
@@ -116,13 +102,11 @@
 
 ### ~.vim/snippets/
 
-#### c.snippets
+#### c.snippets(e.g.)
 
     # #include
     snippet inc
         #include <${1:stdio}.h>${2}
-
-***
 
 ###vim ctags
 
@@ -130,32 +114,27 @@
 >*  CTRL+]
 >*  CTRL+O
 
-***
+###Metioned
 
-##unzip
-
->``unzip [filename]``   -> To extract the file[filename]
-
-##tar
-
->``tar xzvf tig-0.17.tar.gz``   -> Extract .tar and .gz
+>*  gedit
+>*  Search 'peter-vim' from github.com
+>*  [get Peters vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  ~.vim/snippets/
+>*  Use stags for many files
 
 ***
 
-##Mentioned
+##Extract
 
->*  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
->*  [ProGit](http://progit.org "ProGit")
->*  [Git book at progit web.](http://progit.org/book/zh/ "Git Book")
->*  git pull   -> To update the git directory.
+>*  ``unzip [filename]``   -> To extract the file[filename]
+>*  ``tar xzvf tig-0.17.tar.gz``   -> Extract .tar and .gz
 
 ***
 
 ##diff
 
->``diff -u a.c b.c > c``   -> Show diff of 'a.c' and 'b.c' to file 'c'
-
->``patch file1 file2``   -> For file1 on the file2 patches.
+>*  ``diff -u a.c b.c > c``   -> Show diff of 'a.c' and 'b.c' to file 'c'
+>*  ``patch file1 file2``   -> For file1 on the file2 patches.
 
 ***
 
@@ -189,39 +168,25 @@
     [push]
     default = current
 
-***
-
-##tig
+### tig
 
 >``d``   -> Show diff
 
-***
-
-##Mentioned
+###Mentioned
 
 >*  [tig](http://jonas.nitro.dk/tig/ "tig")
 >*  history
-
-***
-
-##Mentioned
-
->*  Search 'peter-vim' from github.com
->*  [get Peters vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
+>*  [book](http://happypeter.github.com/LGCB "Peter's book")
+>*  git clone https://github.com/happypeter/cc-note.git
+>*  [ProGit](http://progit.org "ProGit")
+>*  [Git book at progit web.](http://progit.org/book/zh/ "Git Book")
+>*  git pull   -> To update the git directory.
 >*  script -> Script usually is interpreted language. And run some functions of a specific program.
 >*  README
 >*  TODO
 >*  the book : _how to become a hacker_
-
-***
-
-##Mentioned
-
 >*  git for review
->*  ~.vim/snippets/
 >*  wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv
->*  stags for many files
->*  1->3->1 (git files)
 >*  git branch
 
 ***
