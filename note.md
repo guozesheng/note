@@ -54,6 +54,7 @@
 >*  cd       --> soon back
 >*  rm -r -f  -> delete the file
 >*  whoami
+>*  history
 >*  the music: _The Pretty Reckless_
 >*  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
 
@@ -184,7 +185,6 @@
 ###Mentioned
 
 >*  [tig](http://jonas.nitro.dk/tig/ "tig")
->*  history
 >*  [book](http://happypeter.github.com/LGCB "Peter's book")
 >*  git clone https://github.com/happypeter/cc-note.git
 >*  [ProGit](http://progit.org "ProGit")
