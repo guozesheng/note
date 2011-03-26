@@ -130,7 +130,7 @@
 
 >*  ``git init``   -> Create an empty git repository or reinitialize an existing one.
 >*  ``git add h.c`` -> Add file contents to the index
->*  ``git commit -a -m "first version"``   -> Record changes to the repository. (-a: All the changes. -m: Message)
+>*  ``git commit -a -v -m "first version"``   -> Record changes to the repository. (-a: All the changes. -v: berbose. -m: Message)
 >*  ``git diff``   -> Show diff.
 >*  ``git reset --hard HEAD``   -> Reset current HEAD to the specified state.
 
@@ -181,6 +181,26 @@
 >*  README
 >*  TODO
 >*  the book : _how to become a hacker_
+
+***
+
+***
+
+#_Note0326_
+
+## ~.vim/snippets/
+
+### c.snippets
+
+    # #include
+    snippet inc
+        #include <${1:stdio}.h>${2}
+
+##Mentioned
+
+>*  git for review
+>*  ~.vim/snippets/
+>*  wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv
 
 ***
 
