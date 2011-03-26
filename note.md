@@ -196,11 +196,20 @@
     snippet inc
         #include <${1:stdio}.h>${2}
 
+##vim ctags
+
+>*  CTRL+N
+>*  CTRL+]
+>*  CTRL+O
+
 ##Mentioned
 
 >*  git for review
 >*  ~.vim/snippets/
 >*  wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv
+>*  stags for many files
+>*  1->3->1 (git files)
+>*  git branch
 
 ***
 
