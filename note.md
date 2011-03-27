@@ -92,6 +92,7 @@
 >*  ``:w hello.c``  -> write to hello.c
 >*  :q              -> quit
 >*  !               -> force
+>*  ,ss             -> setlocal spell
 >*  vimtutor
 
 ###vim config
@@ -197,6 +198,7 @@
 >*  git for review
 >*  wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv
 >*  git branch
+>*  [linux set up git](http://help.github.com/linux-set-up-git/)
 
 ***
 
