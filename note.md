@@ -125,6 +125,11 @@
 >*  ``CTRL-x-k``  -> check with the dictionary
 >*  Check ``:h i_Ctrl-<tab>`` for help.
 
+### find file
+
+>*  ``find .|grep filename``
+>*  ``locate stdlib.h``  -> and you can use ``sudo updatedb`` to update the datebase.
+
 ###Metioned
 
 >*  gedit
@@ -132,7 +137,9 @@
 >*  [get Peters vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
 >*  ~.vim/snippets/
 >*  Use stags for many files
->*  ``locate stdlib.h``
+>*  get search from hen of Peters's github.
+>*  ``ps aux|grep -i firefox``   -> get help from manpage
+>*  ``kill -9 18576``
 
 ***
 
