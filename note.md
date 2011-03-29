@@ -132,6 +132,7 @@
 >*  [get Peters vimrc config](http://happypeter.github.com/GitBeijing/vim-conf-share.html) 
 >*  ~.vim/snippets/
 >*  Use stags for many files
+>*  ``locate stdlib.h``
 
 ***
 
@@ -156,6 +157,9 @@
 >*  ``git commit -a -v -m "first version"``   -> Record changes to the repository. (-a: All the changes. -v: berbose. -m: Message)
 >*  ``git diff``   -> Show diff.
 >*  ``git reset --hard HEAD``   -> Reset current HEAD to the specified state.
+>*  ``git checkout <branchname> [-b <new branch name>]``
+>*  ``git branch [-d <branchname>]``   -> Show branch. -d for delete.
+>*  ``git branch [-m <old branchname> <new branchname>]``   -> Move/rename a branch and its reflo.
 
 ### ~/.gitconfig
 
@@ -199,6 +203,16 @@
 >*  wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv
 >*  git branch
 >*  [linux set up git](http://help.github.com/linux-set-up-git/)
+
+***
+
+## .sh
+    for file in `ls`
+    do
+        if [[ $file == *.md ]]; then
+            echo $file
+        fi
+    done
 
 ***
 
