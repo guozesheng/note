@@ -103,6 +103,14 @@
 >*  ,ss             -> setlocal spell
 >*  vimtutor        -> the vim tutor
 >*  :vnew/new file  -> CTRL+w+w to change window and :bd(buffer delete) to close active
+>*  :Tlist          -> we can use ",t" when use Peter's VimRC
+>*  :NERDTreeToggle -> we can usr ",n" when use Peter's VimRC
+>*  :bn             -> switch among buffers, (<tab> in Peter's VimRC)
+>*  :ls             -> vim's list
+>*  zf              -> Create floding.
+>*  zx              -> Open floding.
+>*  zc              -> Flod floding.
+>*  ``vim -t main`` -> should exist the ctags
 
 ###vim config
 
@@ -150,6 +158,7 @@
 >*  ``ps aux|grep -i firefox``   -> get help from manpage
 >*  ``kill -9 18576``
 >*  vimdiff file1 file2          -> Show diff of file1 and file2.
+>*  [vim.org](http://www.vim.org)
 
 ***
 
@@ -237,6 +246,10 @@
 #_TODO_
 
 >*  To learn bash from Peter's website.
+>*  _Program Lib HOWTO_
+>*  http://vim-showoff-peter.heroku.com
+>*  [Seven habits of effective text
+>editing](http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=Seven+habits+of+effective+text+editing)
 
 ***
 
