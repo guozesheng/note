@@ -57,6 +57,8 @@
 >*  history
 >*  the music: _The Pretty Reckless_
 >*  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
+>*  ``gcc -I/path/to/header/
+>*  ``ldd a.out``
 
 ***
 
@@ -81,19 +83,26 @@
 ###Mentioned
 
 >*  dpkg
+>*  ``dpkg -S /usr/include/stdlib.h``  -> -S --search
 
 ***
 
 ##vim
 
 >*  i               -> input
->*  :h vim-modes
+>*  v               -> select
+>*  V               -> to select one line
+>*  CTRL+v          -> to select for square
+>*  u               -> UNDO
+>*  CTRL+r          -> ONDO
+>*  :h vim-modes    -> get help for modes
 >*  :w              -> write
 >*  ``:w hello.c``  -> write to hello.c
 >*  :q              -> quit
 >*  !               -> force
 >*  ,ss             -> setlocal spell
->*  vimtutor
+>*  vimtutor        -> the vim tutor
+>*  :vnew/new file  -> CTRL+w+w to change window and :bd(buffer delete) to close active
 
 ###vim config
 
@@ -140,6 +149,7 @@
 >*  get search from hen of Peters's github.
 >*  ``ps aux|grep -i firefox``   -> get help from manpage
 >*  ``kill -9 18576``
+>*  vimdiff file1 file2          -> Show diff of file1 and file2.
 
 ***
 
@@ -154,6 +164,7 @@
 
 >*  ``diff -u a.c b.c > c``   -> Show diff of 'a.c' and 'b.c' to file 'c'
 >*  ``patch file1 file2``   -> For file1 on the file2 patches.
+>*  vimdiff
 
 ***
 
@@ -197,7 +208,7 @@
 ###Mentioned
 
 >*  [tig](http://jonas.nitro.dk/tig/ "tig")
->*  [book](http://happypeter.github.com/LGCB "Peter's book")
+>*  [Peter's book](http://happypeter.github.com/LGCB "Peter's book")
 >*  git clone https://github.com/happypeter/cc-note.git
 >*  [ProGit](http://progit.org "ProGit")
 >*  [Git book at progit web.](http://progit.org/book/zh/ "Git Book")
@@ -220,6 +231,12 @@
             echo $file
         fi
     done
+
+***
+
+#_TODO_
+
+>*  To learn bash from Peter's website.
 
 ***
 
