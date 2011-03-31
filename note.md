@@ -95,6 +95,7 @@
 >*  CTRL+v          -> to select for square
 >*  u               -> UNDO
 >*  CTRL+r          -> ONDO
+>*  CTRL+c          -> Note for C program files
 >*  :h vim-modes    -> get help for modes
 >*  :w              -> write
 >*  ``:w hello.c``  -> write to hello.c
@@ -248,8 +249,7 @@
 >*  To learn bash from Peter's website.
 >*  _Program Lib HOWTO_
 >*  http://vim-showoff-peter.heroku.com
->*  [Seven habits of effective text
->editing](http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=Seven+habits+of+effective+text+editing)
+>*  [Seven habits of effective text editing](http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=Seven+habits+of+effective+text+editing)
 
 ***
 
