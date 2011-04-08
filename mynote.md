@@ -1,5 +1,15 @@
 #_My Note_
 
+## Install by Source
+
+*  ``./configure``
+*  ``make``
+*  ``sudo make install``
+
+>If you have any error in the 'configure' or the 'make' you shold modify your X configure. And befor again you shold do like this.
+
+``make clean``
+
 ## Volume control
 
 ``gnome-volume-control-applet``
