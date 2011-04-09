@@ -74,7 +74,7 @@
 
 ***
 
-##install
+## install
 
 *  ``./configure``
 *  ``make``
@@ -84,7 +84,7 @@
 
 >``sudo mv tool.sh /bin``  -> To install it and Enable it Run Everywhere
 
-###apt-get
+### apt-get
 
 >``apt-get update``
 
@@ -92,7 +92,7 @@
 
 >``wget 122.115.61.189/tmp/cc-note``   -> Download
 
-###Mentioned
+### Mentioned
 
 *  dpkg
 *  ``dpkg -S /usr/include/stdlib.h``  -> -S --search
