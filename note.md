@@ -183,14 +183,14 @@
 *  vimdiff file1 file2          -> Show diff of file1 and file2.
 *  [vim.org](http://www.vim.org)
 
-***
+****
 
 ##Extract
 
 *  ``unzip [filename]``   -> To extract the file[filename]
 *  ``tar xzvf tig-0.17.tar.gz``   -> Extract .tar and .gz
 
-***
+****
 
 ##diff
 
@@ -198,7 +198,7 @@
 *  ``patch file1 file2``   -> For file1 on the file2 patches.
 *  vimdiff
 
-***
+****
 
 ##git
 
@@ -254,7 +254,7 @@
 *  git branch
 *  [linux set up git](http://help.github.com/linux-set-up-git/)
 
-***
+****
 
 ## .sh
     for file in `ls`
@@ -264,7 +264,7 @@
         fi
     done
 
-***
+****
 
 #_TODO_
 
@@ -273,6 +273,6 @@
 *  http://vim-showoff-peter.heroku.com
 *  [Seven habits of effective text editing](http://www.google.com.hk/search?sourceid=chrome&ie=UTF-8&q=Seven+habits+of+effective+text+editing)
 
-***
+****
 
 >>>_All by XiaoGuo_
