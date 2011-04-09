@@ -46,18 +46,30 @@
 
 >Try to install the MarkDown.
 
+### man
+
+1.  General Commands
+2.  System Calls
+3.  Subroutines
+4.  Special Files
+5.  File Formats
+6.  Games
+7.  Macros and Conventions
+8.  Maintenence Commands
+
 ###Mentioned
 
-*  GUI       -> Command Line
-*  ls        -> list
-*  cd        -> Change Directory (No Folder)
-*  cd       --> soon back
-*  rm -r -f  -> delete the file
+*  man 3 rand  -> Library Functions
+*  GUI         -> Command Line
+*  ls          -> list
+*  cd          -> Change Directory (No Folder)
+*  cd -        -> soon back
+*  rm -r -f    -> delete the file
 *  whoami
 *  history
 *  the music: _The Pretty Reckless_
 *  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
-*  ``gcc -I/path/to/header/
+*  ``gcc -I/path/to/header/``
 *  ``ldd a.out``
 
 ***
