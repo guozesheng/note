@@ -97,7 +97,7 @@
 *  dpkg
 *  ``dpkg -S /usr/include/stdlib.h``  -> -S --search
 
-***
+****
 
 ##vim
 
