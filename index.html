@@ -1,0 +1,340 @@
+<h1><em>My Note</em></h1>
+
+<h2>bash</h2>
+
+<blockquote>
+  <p><code>cd fir-&lt;tab&gt;</code>  -> cd first  (Quick completion)</p>
+</blockquote>
+
+<h3>path</h3>
+
+<blockquote>
+  <p>abs path</p>
+
+<p>rel path</p>
+</blockquote>
+
+<h3>mkdir</h3>
+
+<blockquote>
+  <p><code>mkdir -p mydir1/mydir2</code>  -> will also create all directories leading up to the given directory that do not exist already. If the given directory already exists, ignore the error.</p>
+</blockquote>
+
+<h3>mv and cp</h3>
+
+<blockquote>
+  <p><code>mv aa bb</code>   -> rename or move</p>
+
+<p><code>cp aa bb</code>   -> copy</p>
+</blockquote>
+
+<h3>rm</h3>
+
+<h3>sudo</h3>
+
+<blockquote>
+  <p>sudo    -> SuperUser do</p>
+
+<p>sudo su -> root</p>
+</blockquote>
+
+<h3>chmod</h3>
+
+<blockquote>
+  <p>ugo                       -> user, group, others</p>
+
+<p>a                         -> all</p>
+
+<p>rwx                       -> read(4), write(2), execute(1)</p>
+
+<p><code>chmod ug+rw mydir</code>     -> drw-rw----</p>
+
+<p><code>chmod 664 myfile</code>      -> -rw-rw-r--</p>
+
+<p><code>chmod +x [filename]</code>   -> Enable Run</p>
+
+<p><code>sudo mv tool.sh /bin</code>  -> To install it and Enable it Run Everywhere</p>
+
+<p>Try to install the MarkDown.</p>
+</blockquote>
+
+<h3>man</h3>
+
+<ol>
+<li>General Commands</li>
+<li>System Calls</li>
+<li>Subroutines</li>
+<li>Special Files</li>
+<li>File Formats</li>
+<li>Games</li>
+<li>Macros and Conventions</li>
+<li>Maintenence Commands</li>
+</ol>
+
+<h3>Mentioned</h3>
+
+<ul>
+<li>man 3 rand  -> Library Functions</li>
+<li>GUI         -> Command Line</li>
+<li>ls          -> list</li>
+<li>cd          -> Change Directory (No Folder)</li>
+<li>cd -        -> soon back</li>
+<li>rm -r -f    -> delete the file</li>
+<li>whoami</li>
+<li>history</li>
+<li>the music: <em>The Pretty Reckless</em></li>
+<li><a href="http://daringfireball.net/projects/markdown/" title="MarkDown">MarkDown.pl</a></li>
+<li><code>gcc -I/path/to/header/</code></li>
+<li><code>ldd a.out</code></li>
+</ul>
+
+<hr />
+
+<h2>install</h2>
+
+<ul>
+<li><code>./configure</code></li>
+<li><code>make</code></li>
+<li><code>sudo make install</code></li>
+</ul>
+
+<h3>/bin</h3>
+
+<blockquote>
+  <p><code>sudo mv tool.sh /bin</code>  -> To install it and Enable it Run Everywhere</p>
+</blockquote>
+
+<h3>apt-get</h3>
+
+<blockquote>
+  <p><code>apt-get update</code></p>
+
+<p><code>apt-get install git-core</code>   -> install the Git</p>
+
+<p><code>wget 122.115.61.189/tmp/cc-note</code>   -> Download</p>
+</blockquote>
+
+<h3>Mentioned</h3>
+
+<ul>
+<li>dpkg</li>
+<li><code>dpkg -S /usr/include/stdlib.h</code>  -> -S --search</li>
+</ul>
+
+<hr />
+
+<h2>vim</h2>
+
+<ul>
+<li>i               -> input</li>
+<li>v               -> select</li>
+<li>V               -> to select one line</li>
+<li>CTRL+v          -> to select for square</li>
+<li>u               -> UNDO</li>
+<li>CTRL+r          -> ONDO</li>
+<li>CTRL+c          -> Note for C program files</li>
+<li>:h vim-modes    -> get help for modes</li>
+<li>:w              -> write</li>
+<li><code>:w hello.c</code>  -> write to hello.c</li>
+<li>:q              -> quit</li>
+<li>!               -> force</li>
+<li>,ss             -> setlocal spell</li>
+<li>vimtutor        -> the vim tutor</li>
+<li>:vnew/new file  -> CTRL+w+w to change window and :bd(buffer delete) to close active</li>
+<li>:Tlist          -> we can use ",t" when use Peter's VimRC</li>
+<li>:NERDTreeToggle -> we can usr ",n" when use Peter's VimRC</li>
+<li>:bn             -> switch among buffers, (<tab> in Peter's VimRC)</li>
+<li>:ls             -> vim's list</li>
+<li>zf              -> Create floding.</li>
+<li>zx              -> Open floding.</li>
+<li>zc              -> Flod floding.</li>
+<li><code>vim -t main</code> -> should exist the ctags</li>
+</ul>
+
+<h3>split view</h3>
+
+<ul>
+<li><code>vim -On file1 file2</code>  -> Vertical Split</li>
+<li><code>vim -on file1 file2</code>  -> Horizontal Split</li>
+<li>Ctrl+w s                 -> Vertical Split</li>
+<li>Ctrl+w v                 -> Horizontal Split</li>
+<li>Ctrl+w c                 -> Close current window</li>
+<li>Ctrl+w q                 -> Close current window and if it is the last window the Vim will exits.</li>
+<li>Ctrl+w w                 -> Activate the next window.</li>
+</ul>
+
+<h3>vim config</h3>
+
+<ul>
+<li><code>:set nu</code>          -> Show line number</li>
+<li><code>:set autoindent</code>  -> Auto indent</li>
+<li>~/.vimrc             -> vim config</li>
+<li><code>:h 'autoindent'</code>  -> for help</li>
+</ul>
+
+<h3>~.vim/snippets/</h3>
+
+<h4>c.snippets(e.g.)</h4>
+
+<pre><code># #include
+snippet inc
+    #include &lt;${1:stdio}.h&gt;${2}
+</code></pre>
+
+<h3>vim ctags</h3>
+
+<ul>
+<li>CTRL+N</li>
+<li>CTRL+]</li>
+<li>CTRL+O</li>
+</ul>
+
+<h3>Auto completion</h3>
+
+<ul>
+<li><code>CTRL-N</code>    -> quick completion</li>
+<li><code>CTRL-L-K</code>  -> set spell</li>
+<li><code>CTRL-X-L</code>  -> quick completion line</li>
+<li><code>CTRL-X-F</code>  -> quick completion the filename</li>
+<li><code>CTRL-x-k</code>  -> check with the dictionary</li>
+<li>Check <code>:h i\_Ctrl-&lt;tab&gt;</code> for help.</li>
+</ul>
+
+<h3>find file</h3>
+
+<ul>
+<li><code>find .|grep filename</code></li>
+<li><code>locate stdlib.h</code>  -> and you can use <code>sudo updatedb</code> to update the datebase.</li>
+</ul>
+
+<h3>Metioned</h3>
+
+<ul>
+<li>gedit</li>
+<li>Search 'peter-vim' from github.com</li>
+<li><a href="http://happypeter.github.com/GitBeijing/vim-conf-share.html">get Peters vimrc config</a> </li>
+<li>~.vim/snippets/</li>
+<li>Use stags for many files</li>
+<li>get search from hen of Peters's github.</li>
+<li><code>ps aux|grep -i firefox</code>   -> get help from manpage</li>
+<li><code>kill -9 18576</code></li>
+<li>vimdiff file1 file2          -> Show diff of file1 and file2.</li>
+<li><a href="http://www.vim.org">vim.org</a></li>
+</ul>
+
+<hr />
+
+<h2>Extract</h2>
+
+<ul>
+<li><code>unzip [filename]</code>   -> To extract the file[filename]</li>
+<li><code>tar xzvf tig-0.17.tar.gz</code>   -> Extract .tar and .gz</li>
+</ul>
+
+<hr />
+
+<h2>diff</h2>
+
+<ul>
+<li><code>diff -u a.c b.c &gt; c</code>   -> Show diff of 'a.c' and 'b.c' to file 'c'</li>
+<li><code>patch file1 file2</code>   -> For file1 on the file2 patches.</li>
+<li>vimdiff</li>
+</ul>
+
+<hr />
+
+<h2>git</h2>
+
+<ul>
+<li><code>git init</code>   -> Create an empty git repository or reinitialize an existing one.</li>
+<li><code>git add h.c</code> -> Add file contents to the index</li>
+<li><code>git commit -a -v -m "first version"</code>   -> Record changes to the repository. (-a: All the changes. -v: berbose. -m: Message)</li>
+<li><code>git diff</code>   -> Show diff.</li>
+<li><code>git reset --hard HEAD</code>   -> Reset current HEAD to the specified state.</li>
+<li><code>git checkout &lt;branchname&gt; [-b &lt;new branch name&gt;]</code></li>
+<li><code>git branch [-d &lt;branchname&gt;]</code>   -> Show branch. -d for delete.</li>
+<li><code>git branch [-m &lt;old branchname&gt; &lt;new branchname&gt;]</code>   -> Move/rename a branch and its reflo.</li>
+</ul>
+
+<h3>~/.gitconfig</h3>
+
+<pre><code>[user]
+name = Peter Wang
+email = happypeter1983@gmail.com
+[core]
+editor = vim
+[alias]
+ci = commit -a -v
+co = checkout
+st = status
+br = branch
+throw = reset --hard HEAD
+throwh = reset --hard HEAD^
+[color]
+ui = true
+
+[commit]
+template = ./.commit-template
+[push]
+default = current
+</code></pre>
+
+<h3>tig</h3>
+
+<blockquote>
+  <p><code>d</code>   -> Show diff</p>
+</blockquote>
+
+<h3>Mentioned</h3>
+
+<ul>
+<li><a href="http://jonas.nitro.dk/tig/" title="tig">tig</a></li>
+<li><a href="http://happypeter.github.com/LGCB" title="Peter's book">Peter's book</a></li>
+<li>git clone https://github.com/happypeter/cc-note.git</li>
+<li><a href="http://progit.org" title="ProGit">ProGit</a></li>
+<li><a href="http://progit.org/book/zh/" title="Git Book">Git book at progit web.</a></li>
+<li>git pull   -> To update the git directory.</li>
+<li>script -> Script usually is interpreted language. And run some functions of a specific program.</li>
+<li>README</li>
+<li>TODO</li>
+<li>the book : <em>how to become a hacker</em></li>
+<li>git for review</li>
+<li>wget 122.115.61.189/happycasts/happygit-zh/git_start.ogv</li>
+<li>git branch</li>
+<li><a href="http://help.github.com/linux-set-up-git/">linux set up git</a></li>
+</ul>
+
+<hr />
+
+<h2>.sh</h2>
+
+<pre><code>for file in `ls`
+do
+    if [[ $file == *.md ]]; then
+        echo $file
+    fi
+done
+</code></pre>
+
+<hr />
+
+<h1><em>TODO</em></h1>
+
+<ul>
+<li>To learn bash from Peter's website.</li>
+<li><em>Program Lib HOWTO</em></li>
+<li>http://vim-showoff-peter.heroku.com</li>
+<li><a href="http://www.google.com.hk/search?sourceid=chrome&amp;ie=UTF-8&amp;q=Seven+habits+of+effective+text+editing">Seven habits of effective text editing</a></li>
+</ul>
+
+<hr />
+
+<blockquote>
+  <blockquote>
+  <blockquote>
+  <p><em>All by XiaoGuo</em></p>
+</blockquote>
+
+<p></blockquote></p>
+
+<p></blockquote></p>
