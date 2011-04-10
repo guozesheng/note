@@ -64,7 +64,7 @@
 *  ls          -> list
 *  cd          -> Change Directory (No Folder)
 *  cd -        -> soon back
-*  rm -r -f    -> delete the file
+*  rm -r -f    -> delete the file(rm -rf)
 *  whoami
 *  history
 *  the music: _The Pretty Reckless_
