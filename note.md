@@ -108,6 +108,7 @@
 *  u               -> UNDO
 *  CTRL+r          -> ONDO
 *  CTRL+c          -> Note for C program files
+*  CTRL+x          -> UnNote for C program files
 *  :h vim-modes    -> get help for modes
 *  :w              -> write
 *  ``:w hello.c``  -> write to hello.c
