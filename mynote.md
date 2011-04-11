@@ -1,5 +1,42 @@
 #_My Note_
 
+## TTY
+
+*  ``Ctrl+Alt+1``  (1~6)
+*  ``Ctrl+7``
+
+>You can add a start option to log in the console when you boot. Just edit the "/boot/grub/gurb.cfg". Search "quiet splash" to find the first option. Then copy the option paragraph and modify the "quiet splash" to "text". Just like this.
+
+    menuentry 'Ubuntu, with Linux 2.6.35-28-generic TTY' --class ubuntu --class
+    gnu-linux --class gnu --class os {
+        recordfail
+        insmod part_msdos
+        insmod ext2
+        set root='(hd0,msdos9)'
+        search --no-floppy --fs-uuid --set
+        8e1aaeba-65f9-4c35-90eb-4ed85f4ccaff
+        linux   /boot/vmlinuz-2.6.35-28-generic
+        root=UUID=8e1aaeba-65f9-4c35-90eb-4ed85f4ccaff ro
+        text
+        initrd  /boot/initrd.img-2.6.35-28-generic
+    }
+
+>But it will recoveries after update. You can edit the 
+
+``vim /etc/default/grub``
+
+>Modify
+
+``GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"``
+
+>TO
+
+``GRUB_CMDLINE_LINUX_DEFAULT="text"``
+
+>Then update the grub:
+
+``update-grub``
+
 ## Install by Source
 
 *  ``./configure``
