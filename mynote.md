@@ -37,6 +37,8 @@
 
 ``update-grub``
 
+>``gdm`` to log in the GDM.
+
 ## Install by Source
 
 *  ``./configure``
