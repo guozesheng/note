@@ -1,8 +1,16 @@
 #_My Note_
 
+## Applications menu
+
+>If you are confused about the order in which paths are searched, here is a simple list for resolving the location of applications.menu:
+
+1.  Search each directory in $XDG\_CONFIG\_HOME in order to find menus/applications.menu. If $XDG\_CONFIG\_HOME is not set, it defaults to the ~/.config/ directory.
+2.  Search each directory in $XDG\_CONFIG\_DIRS in order to find menus/applications.menu. If $XDG\_CONFIG\_DIRS is not set, it defaults to the /etc/xdg/ directory.
+3.  Use the first applications.menu file found.
+
 ## TTY
 
-*  ``Ctrl+Alt+1``  (1~6)
+*  ``Ctrl+Alt+F1``  (F1~F6)
 *  ``Ctrl+7``
 
 >You can add a start option to log in the console when you boot. Just edit the "/boot/grub/gurb.cfg". Search "quiet splash" to find the first option. Then copy the option paragraph and modify the "quiet splash" to "text". Just like this.

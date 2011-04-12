@@ -164,7 +164,7 @@
 *  ``CTRL-X-L``  -> quick completion line
 *  ``CTRL-X-F``  -> quick completion the filename
 *  ``CTRL-x-k``  -> check with the dictionary
-*  Check ``:h i\_Ctrl-<tab>`` for help.
+*  Check ``:h i_Ctrl-<tab>`` for help.
 
 ### find file
 
