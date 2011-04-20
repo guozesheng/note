@@ -1,8 +1,16 @@
 #_My Note_
 
+## Disabled Network Adapter
+
+>If the disabled network adapter can't be enabled.
+
+*  ``sudo service network-manager stop``
+*  ``sudo rm /var/lib/NetworkManager/NetworkManager.state``
+*  ``sudo service network-manager start``
+
 ## Applications menu
 
->If you are confused about the order in which paths are searched, here is a simple list for resolving the location of applications.menu:
+>If you are confusing about the order in which paths are searched, here is a simple list for resolving the location of applications.menu:
 
 1.  Search each directory in $XDG\_CONFIG\_HOME in order to find menus/applications.menu. If $XDG\_CONFIG\_HOME is not set, it defaults to the ~/.config/ directory.
 2.  Search each directory in $XDG\_CONFIG\_DIRS in order to find menus/applications.menu. If $XDG\_CONFIG\_DIRS is not set, it defaults to the /etc/xdg/ directory.

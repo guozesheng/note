@@ -5,6 +5,14 @@
 *  strtoul()
 *  fopen()
 *  fprintf()
-   fscanf()
+*  fscanf()
 *  fclose()
 *  perror()
+
+*  getc()
+*  putc()
+*  fgetc()
+*  fputc()
+*  gets()  -> Never use gets().
+*  fgets()
+*  rewind()
