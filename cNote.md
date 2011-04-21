@@ -16,3 +16,7 @@
 *  gets()  -> Never use gets().
 *  fgets()
 *  rewind()
+
+*  fread()
+*  fwrite()
+*  feof()

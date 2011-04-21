@@ -33,7 +33,6 @@
 >Edite the '/etc/initramfs-toos/moduls'.
 
 ``uvesafb mtrr=3 scroll=ywrap``
-
 ``sudo update-grub``
 ``sudo update-initramfs -u``
 
