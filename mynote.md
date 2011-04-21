@@ -1,5 +1,12 @@
 #_My Note_
 
+## Zhcon
+
+>Zhcon is a fast Linux Console Chinese System which supports framebuffer device. It can display Chinese, Japanese or Korean double byte characters. Supported language encodings include: GB2312, GBK, BIG5, JIS and KSC. UTF-8 is also supported.
+
+*  ``sudo apt-get install zhcon``
+*  ``zhcon --utf8``
+
 ## Watching Movie In Console
 
 *  ``sudo apt-get install mplayer``
