@@ -1,5 +1,40 @@
 #_My Note_
 
+## Watching Movie In Console
+
+*  ``sudo apt-get install mplayer``
+*  ``mplayer -vo fbdev -zoom -x 1280 -y 768 file.avi``
+
+## Ubuntu Console Resolution
+
+>The problem of the ubuntu console resolution has been bothering me for weeks.
+
+>Install the v86d.
+
+ ``sudo apt-get install v86d``
+
+>Edite the '/etc/default/grub'.
+
+``GRUB_CMDLINE_LINUX_DEFAULT="vga=0x0369"``
+``GRUB_GFXMODE=1024x768``
+
+>OR:
+
+``GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset video=uvesafb:mode_option=1280x800-24,mtrr=3,scroll=ywrap"``
+``GRUB_GFXMODE=1280x800x24``
+
+>Edite the '/etc/initramfs-toos/moduls'.
+
+``uvesafb mtrr=3 scroll=ywrap``
+
+``sudo update-grub``
+``sudo update-initramfs -u``
+
+>_note_: The date of vga is known by 'hwinfo'.
+
+``sudo apt-get install hwinfo``
+``sudo hwinfo --framefuffer``
+
 ## Disabled Network Adapter
 
 >If the disabled network adapter can't be enabled.
@@ -107,7 +142,7 @@
 
 ## Rhytmbox messy code
 
->If you recode the MP3 it will chang the music. So I suggest you to do it like this. Edit the '~/.profile` and add to the below codes.
+>If you recode the MP3 it will chang the music. So I suggest you to do it like this. Edit the '~/.profile' and add to the below codes.
 
 *  ``export GST_ID3_TAG_ENCODING=GBK:UTF-8:GB18030``
 *  ``export GST_ID3V2_TAG_ENCODING=GBK:UTF-8:GB18030``
