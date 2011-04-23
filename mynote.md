@@ -33,6 +33,13 @@
 >Edite the '/etc/initramfs-toos/moduls'.
 
 ``uvesafb mtrr=3 scroll=ywrap``
+
+>Force to use 'Framebuffer':
+
+``$ echo FRAMEBUFFER=y | sudo tee /etc/initramfs-tools/conf.d/splash``
+
+>The End: update.
+
 ``sudo update-grub``
 ``sudo update-initramfs -u``
 
