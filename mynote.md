@@ -4,13 +4,13 @@
 
 >Zhcon is a fast Linux Console Chinese System which supports framebuffer device. It can display Chinese, Japanese or Korean double byte characters. Supported language encodings include: GB2312, GBK, BIG5, JIS and KSC. UTF-8 is also supported.
 
-*  ``sudo apt-get install zhcon``
-*  ``zhcon --utf8``
+*  ``# apt-get install zhcon``
+*  ``$ zhcon --utf8``
 
 ## Watching Movie In Console
 
-*  ``sudo apt-get install mplayer``
-*  ``mplayer -vo fbdev -zoom -x 1280 -y 768 file.avi``
+*  ``# apt-get install mplayer``
+*  ``# mplayer -vo fbdev -zoom -x 1280 -y 768 file.avi``
 
 ## Ubuntu Console Resolution
 
@@ -18,7 +18,7 @@
 
 >Install the v86d.
 
- ``sudo apt-get install v86d``
+ ``# apt-get install v86d``
 
 >Edite the '/etc/default/grub'.
 
@@ -40,21 +40,21 @@
 
 >The End: update.
 
-``sudo update-grub``
-``sudo update-initramfs -u``
+``# update-grub``
+``# update-initramfs -u``
 
 >_note_: The date of vga is known by 'hwinfo'.
 
-``sudo apt-get install hwinfo``
-``sudo hwinfo --framefuffer``
+``# apt-get install hwinfo``
+``# hwinfo --framefuffer``
 
 ## Disabled Network Adapter
 
 >If the disabled network adapter can't be enabled.
 
-*  ``sudo service network-manager stop``
-*  ``sudo rm /var/lib/NetworkManager/NetworkManager.state``
-*  ``sudo service network-manager start``
+*  ``# service network-manager stop``
+*  ``# rm /var/lib/NetworkManager/NetworkManager.state``
+*  ``# service network-manager start``
 
 ## Applications menu
 
@@ -87,7 +87,7 @@
 
 >But it will recoveries after update. You can edit the 
 
-``vim /etc/default/grub``
+``$ vim /etc/default/grub``
 
 >Modify
 
@@ -99,19 +99,19 @@
 
 >Then update the grub:
 
-``update-grub``
+``# update-grub``
 
->``gdm`` to log in the GDM.
+>``# gdm`` to log in the GDM.
 
 ## Install by Source
 
-*  ``./configure``
-*  ``make``
-*  ``sudo make install``
+*  ``$ ./configure``
+*  ``$ make``
+*  ``$ sudo make install``
 
 >If you have any error in the 'configure' or the 'make' you shold modify your X configure. And befor again you shold do like this.
 
-``make clean``
+``$ make clean``
 
 ## Volume control
 
@@ -123,9 +123,9 @@
 
 ## Today, the top panel was deleted accidentally.
 
-*  ``gconftool --recursive-unset /apps/panel``
-*  ``rm -rf ~/.gconf/apps/panel``
-*  ``pkill gnome-panel``
+*  ``$ gconftool --recursive-unset /apps/panel``
+*  ``$ rm -rf ~/.gconf/apps/panel``
+*  ``$ pkill gnome-panel``
 
 ## The _fcitx_ no Wubi
 
@@ -135,23 +135,23 @@
 
 >If your google-chrome can't read the configuration files, you can try like this.
 
-``rm -r ~/.config/google-chrome``
+``$ rm -r ~/.config/google-chrome``
 
 >If it is the chromium.
 
-``rm -r ~/.config/chromium``
+``$ rm -r ~/.config/chromium``
 
 ## special effect
 
 >if you want to open all the Ubuntu special effect you shold install the 'Compiz' and the 'Compiz Fusion'.
 
-*  ``sudo apt-get install compiz compiz-gnome``
-*  ``sudo apt-get install compizconfig-settings-manager``
-*  ``sudo apt-get install compiz-fusion*``
+*  ``$ sudo apt-get install compiz compiz-gnome``
+*  ``$ sudo apt-get install compizconfig-settings-manager``
+*  ``$ sudo apt-get install compiz-fusion*``
 
 ## Uninstall Luban lyric
 
-``sudo dpkg -r rblyrics``
+``# dpkg -r rblyrics``
 
 ## Rhytmbox messy code
 
