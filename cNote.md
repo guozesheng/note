@@ -36,3 +36,7 @@ clean:
 	rm -rf *.o
 	rm -rf a.out
 	rm -rf ~*
+
+***
+
+>>>_All by XiaoGuo_
