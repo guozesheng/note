@@ -71,6 +71,8 @@
 *  [MarkDown.pl](http://daringfireball.net/projects/markdown/ "MarkDown")
 *  ``gcc -I/path/to/header/``
 *  ``ldd a.out``
+*  ``which ls``
+*  export
 
 ***
 
