@@ -145,6 +145,15 @@
 *  ~/.vimrc             -> vim config
 *  ``:h 'autoindent'``  -> for help
 
+### foldmethod
+
+*  ``set fdm=[method]`` -> method = manual, indent, expr, syntax, diff, marker
+*  zf                   -> Create floding
+*  zo zx zc             -> Open floding.
+*  zc                   -> Flod floding.
+*  zC                   -> Flod all the floding.
+*  zd                   -> Delete the floading when on manual or marker.
+
 ### ~.vim/snippets/
 
 #### c.snippets(e.g.)
@@ -192,6 +201,13 @@
 
 *  ``unzip [filename]``   -> To extract the file[filename]
 *  ``tar xzvf tig-0.17.tar.gz``   -> Extract .tar and .gz
+
+****
+
+##Compress
+
+*  ``tar czvf this.tar.gz ./*.c``
+*  ``tar czvf this.tar.gz ./mydir``
 
 ****
 
