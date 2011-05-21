@@ -22,6 +22,8 @@
 *  feof()
 
 *  toacsii()
+*  setenv()
+*  getenv()
 
 ##Makefile
 
