@@ -21,6 +21,8 @@
 *  fwrite()
 *  feof()
 
+*  toacsii()
+
 ##Makefile
 
 # This is for link
