@@ -1,5 +1,5 @@
 whoami
-ps
+ps u
 history
 ldd a.out
 which ls

@@ -24,6 +24,8 @@
 *  toacsii()
 *  setenv()
 *  getenv()
+*  dup2()
+*  exec()
 
 ##Makefile
 
