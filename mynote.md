@@ -1,5 +1,11 @@
 #_My Note_
 
+## Ubuntu 10.10 manual pages without pthread\_create
+
+*  ``sudo apt-cache search pthread``
+*  ``sudo apt-get install glibc-doc``
+*  ``sudo apt-get install manpages-posix-dev``
+
 ## Zhcon
 
 >Zhcon is a fast Linux Console Chinese System which supports framebuffer device. It can display Chinese, Japanese or Korean double byte characters. Supported language encodings include: GB2312, GBK, BIG5, JIS and KSC. UTF-8 is also supported.
