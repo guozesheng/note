@@ -119,6 +119,7 @@
 *  ,ss             -> setlocal spell
 *  vimtutor        -> the vim tutor
 *  :vnew/new file  -> CTRL+w+w to change window and :bd(buffer delete) to close active
+*  :n/:ne/:next    -> Edit next file
 *  :Tlist          -> we can use ",t" when use Peter's VimRC
 *  :NERDTreeToggle -> we can usr ",n" when use Peter's VimRC
 *  :bn             -> switch among buffers, (<tab> in Peter's VimRC)
