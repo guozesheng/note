@@ -31,8 +31,10 @@
 
 ### ld.so.conf
 
-/etc/ld.so.conf
-``sudo ldconfig -v``
+*  ``# vim /etc/ld.so.conf``
+*  ``# ldconfig -v``
+
+*  ``$ export DL_LIBRARY_PATH=$LD_LIBRARY_PATH:.``
 
 ***
 
