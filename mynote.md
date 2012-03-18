@@ -1,5 +1,10 @@
 #_My Note_
 
+## Install Chrome on Ubuntu 11.10
+
+*  ``sudo apt-get install libnspr4-0d libnss3-1d libxss1 libcurl3``
+*  ``sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb ``
+
 ## Ubuntu 10.10 manual pages without pthread\_create
 
 *  ``sudo apt-cache search pthread``
