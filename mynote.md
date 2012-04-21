@@ -1,5 +1,10 @@
 #_My Note_
 
+## Install cert for GoAgent
+
+*  ``sudo apt-get install libnss3-tools``
+*  ``certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n GoAgent -i '/goagent/local/CA.crt'``
+
 ## Install Chrome on Ubuntu 11.10
 
 *  ``sudo apt-get install libnspr4-0d libnss3-1d libxss1 libcurl3``
