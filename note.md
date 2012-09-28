@@ -295,4 +295,19 @@
 
 ****
 
+#_Powerful CD Command_
+
+##Define CD Base Directory Using CDPATH
+
+    export CDPATH=/etc
+    cd mail
+    /etc/mail
+*  To make this change permanent, add export CDPATH=/etc to your
+   ~/.bash_profile
+*  Add more than one directory entry in the CDPATH variable, separating them
+   with : , as show below.
+>``export CDPATH=.:~:/etc:/var``
+
+****
+
 >>>_All by XiaoGuo_
