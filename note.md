@@ -306,7 +306,35 @@
    ~/.bash_profile
 *  Add more than one directory entry in the CDPATH variable, separating them
    with : , as show below.
+
 >``export CDPATH=.:~:/etc:/var``
+
+##Use CD Alias to Navigate Up the Directory
+
+Add the following alias to your ~/.bash_profile and re-login.
+    alias ..="cd .."
+    alias ..2="cd ../.."
+    alias ..3="cd ../../.."
+    alias ..4="cd ../../../.."
+    alias ..5="cd ../../../../.."
+**OR**
+    alias ..="cd .."
+    alias ...="cd ../.."
+    alias ....="cd ../../.."
+    alias .....="cd ../../../.."
+    alias ......="cd ../../../../.."
+**OR**
+    alias cd..="cd .."
+    alias cd...="cd ../.."
+    alias cd....="cd ../../.."
+    alias cd.....="cd ../../../.."
+    alias cd......="cd ../../../../.."
+**OR**
+    alias cd1="cd .."
+    alias cd2="cd ../.."
+    alias cd3="cd ../../.."
+    alias cd4="cd ../../../.."
+    alias cd5="cd ../../../../.."
 
 ****
 
