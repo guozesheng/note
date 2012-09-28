@@ -1,5 +1,9 @@
 #_My Note_
 
+## .bash_profile
+
+>There's no '.bash_pfofile' in the ubuntu, but it has '.bashrc' and '.profile' there.
+
 ## Install cert for GoAgent
 
 *  ``sudo apt-get install libnss3-tools``
