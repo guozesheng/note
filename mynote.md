@@ -1,18 +1,30 @@
 #_My Note_
 
+## Install Google Chrome
+
+>Add PPA
+
+*  ``$ wget -q -0 - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -``
+*  ``$ sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
+
+>Install Google Chrome
+
+*  ``$ sudo apt-get update``
+*  ``$ sudo apt-get install google-chrome-stable``
+
 ## .bash_profile
 
 >There's no '.bash_pfofile' in the ubuntu, but it has '.bashrc' and '.profile' there.
 
 ## Install cert for GoAgent
 
-*  ``sudo apt-get install libnss3-tools``
-*  ``certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n GoAgent -i '/goagent/local/CA.crt'``
+*  ``$ sudo apt-get install libnss3-tools``
+*  ``$ certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n GoAgent -i '/goagent/local/CA.crt'``
 
 ## Install Chrome on Ubuntu 11.10
 
-*  ``sudo apt-get install libnspr4-0d libnss3-1d libxss1 libcurl3``
-*  ``sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb ``
+*  ``$ sudo apt-get install libnspr4-0d libnss3-1d libxss1 libcurl3``
+*  ``$ sudo dpkg -i ~/Downloads/google-chrome-stable_current_amd64.deb ``
 
 ## Ubuntu 10.10 manual pages without pthread\_create
 
