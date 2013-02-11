@@ -1,5 +1,11 @@
 #_My Note_
 
+## China Net 3G
+
+*  ``Number: #777``
+*  ``user name: ctnet@mycdma.cn``
+*  ``pass word: vnt.mobi``
+
 ## Install Google Chrome
 
 >Add PPA
