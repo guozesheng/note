@@ -1,5 +1,12 @@
 #_My Note_
 
+## Install Desktop
+
+*  ``sudo apt-get install x-window-system-core``
+*  ``sudo apt-get install gnome-core``
+*  ``sudo apt-get install language-pack-gnome-zh``
+*  ``sudo apt-get install ttf-wqy-zenhei``
+
 ## China Net 3G
 
 *  ``Number: #777``
