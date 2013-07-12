@@ -1,5 +1,12 @@
 #_My Note_
 
+## Err When Install Nvidia Driver
+
+>I meet _ERROR: File '/usr/lib/xorg/modules/extensions/libgix.so' is not a symbolic link._
+
+*  ``cd /usr/lib/xorg/modules/``
+*  ``sudo ln extensions/libglx.so.<driver-version> libglx.so.<driver-version>``
+
 ## Install Desktop
 
 *  ``sudo apt-get install x-window-system-core``
