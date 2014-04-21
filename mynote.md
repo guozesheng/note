@@ -1,5 +1,8 @@
 #_My Note_
 
+## Chrome Application Shotcut
+*  ``cd ~/.local/share/applications``
+
 ## Err When Install Nvidia Driver
 
 >I meet _ERROR: File '/usr/lib/xorg/modules/extensions/libgix.so' is not a symbolic link._
