@@ -225,6 +225,7 @@
 *  ``git init``   -> Create an empty git repository or reinitialize an existing one.
 *  ``git add h.c`` -> Add file contents to the index
 *  ``git commit -a -v -m "first version"``   -> Record changes to the repository. (-a: All the changes. -v: berbose. -m: Message)
+*  ``git commit --amend``  -> Amend previous commit
 *  ``git diff``   -> Show diff.
 *  ``git reset --hard HEAD``   -> Reset current HEAD to the specified state.
 *  ``git checkout <branchname> [-b <new branch name>]``
